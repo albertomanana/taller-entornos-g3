@@ -1,28 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- ... metadatos ... -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Motors | Venta de Vehículos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="main-header">
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Sobre el proyecto</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header class="main-header">
+        <nav>
+            <div class="logo">NEON MOTORS</div>
+            <ul class="nav-links">
+                <li><a href="#hero">INICIO</a></li>
+                <li><a href="#stock">CATÁLOGO</a></li>
+                <li><a href="#premium">PREMIUM</a></li>
+                <li><a href="#contact">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <main class="container">
-    <section class="hero">
-      <h1>Proyecto Web Colaborativo</h1>
-      <p>Base creada por el Project Manager</p>
-      <button class="btn">Más información</button>
-    </section>
-  </main>
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="VELOCIDAD Y LUJO">VELOCIDAD Y LUJO</h1>
+                <h2>ENCUENTRA TU COCHE IDEAL</h2>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="number">200+</span>
+                        <span class="label">VEHÍCULOS EN STOCK</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <footer class="main-footer">
-    <p>&copy; 2024 Equipo G3. Todos los derechos reservados.</p>
-  </footer>
+        <section id="stock" class="split-section">
+            <div class="content-box track-box">
+                <h2>DEPORTIVOS</h2>
+                <p>Potencia pura y diseño aerodinámico. Siente la adrenalina.</p>
+                <a href="#galeria-deportivos" class="btn-neon" style="text-decoration: none; display: inline-block;">VER STOCK</a>
+            </div>
+        </section>
+
+        <section id="galeria-deportivos" class="gallery-section">
+            <h2 style="text-align: center; margin-bottom: 2rem;">NUESTROS DEPORTIVOS</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?q=80&w=600&auto=format&fit=crop" alt="Ferrari F8">
+                    <h3>Ferrari F8</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?q=80&w=600&auto=format&fit=crop" alt="Porsche 911">
+                    <h3>Porsche 911</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=600&auto=format&fit=crop" alt="Lamborghini Huracán">
+                    <h3>Lamborghini Huracán</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?q=80&w=600&auto=format&fit=crop" alt="McLaren 720S">
+                    <h3>Range Rover</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?q=80&w=600&auto=format&fit=crop" alt="Audi R8">
+                    <h3>Mercedes</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621135802920-133df287f89c?q=80&w=600&auto=format&fit=crop" alt="Bugatti Chiron">
+                    <h3>Bugatti Chiron</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=600&auto=format&fit=crop" alt="Aston Martin Vantage">
+                    <h3>Aston Martin Vantage</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=600&auto=format&fit=crop" alt="Chevrolet Corvette">
+                    <h3>Chevrolet Corvette</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?q=80&w=600&auto=format&fit=crop" alt="Ford GT">
+                    <h3>Ford GT</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?q=80&w=600&auto=format&fit=crop" alt="Mercedes-AMG GT">
+                    <h3>Mercedes-AMG GT</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="premium" class="split-section reverse">
+            <div class="content-box life-box">
+                <h2>SUV & LUJO</h2>
+                <p>Confort máximo para la ciudad y carretera. Viaja con estilo.</p>
+                <a href="#galeria-suv" class="btn-outline" style="text-decoration: none; display: inline-block;">DESCUBRIR MÁS</a>
+            </div>
+        </section>
+
+        <section id="galeria-suv" class="gallery-section">
+            <h2 style="text-align: center; margin-bottom: 2rem; color: #fff;">NUESTRA SELECCIÓN PREMIUM</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1559416523-140ddc3d238c?q=80&w=600&auto=format&fit=crop" alt="Mercedes G-Class">
+                    <h3>Mercedes G-Class</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1606220838315-056192d5e927?q=80&w=600&auto=format&fit=crop" alt="Range Rover">
+                    <h3>Range Rover</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1616422285623-13ff0162193c?q=80&w=600&auto=format&fit=crop" alt="Bentley Bentayga">
+                    <h3>Bentley Bentayga</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1627454819213-1715e4787d15?q=80&w=600&auto=format&fit=crop" alt="Rolls Royce Cullinan">
+                    <h3>Rolls Royce Cullinan</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621995878479-7e3f8b79c341?q=80&w=600&auto=format&fit=crop" alt="Lamborghini Urus">
+                    <h3>Lamborghini Urus</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1614200187524-dc4b892acf16?q=80&w=600&auto=format&fit=crop" alt="Porsche Cayenne">
+                    <h3>Porsche Cayenne</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1621379768224-11885f81878b?q=80&w=600&auto=format&fit=crop" alt="BMW X7">
+                    <h3>BMW X7</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1605515298946-d062f2e9da53?q=80&w=600&auto=format&fit=crop" alt="Audi Q8">
+                    <h3>Audi Q8</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?q=80&w=600&auto=format&fit=crop" alt="Tesla Model X">
+                    <h3>Tesla Model X</h3>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?q=80&w=600&auto=format&fit=crop" alt="Cadillac Escalade">
+                    <h3>Cadillac Escalade</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+        </div>
+        <p>&copy; 2026 Neon Motors. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
